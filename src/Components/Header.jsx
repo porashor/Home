@@ -9,7 +9,7 @@ import Btn from '../Components/Btn'
 
 const Header = () => {
   return (
-    <div className='bg-black text-secondary py-4'>
+    <div className='bg-blackColor text-secondary py-4'>
       {/* container section  */}
       <div className='w-[80%] mx-auto flexBetween'>
         {/* logo section  */}

@@ -85,3 +85,43 @@ export const SliderData = [
     },
 ];
 
+export const productQuentity = [
+    {
+        name: "Premium Product",
+        num: "8968"
+    },
+    {
+        name: "Happy Customer",
+        num: "1992"
+    },
+    {
+        name: "Awards Wining",
+        num: "27"
+    },
+]
+
+import ad1 from "../assets/image/equinix.png"
+import ad2 from "../assets/image/prologis.png"
+import ad3 from "../assets/image/realty.png"
+import ad4 from "../assets/image/tower.png"
+
+
+
+export const AdData = [
+    {
+        no: 1,
+        img: ad1
+    },
+    {
+        no: 2,
+        img: ad2
+    },
+    {
+        no: 3,
+        img: ad3
+    },
+    {
+        no: 4,
+        img: ad4
+    },
+]
