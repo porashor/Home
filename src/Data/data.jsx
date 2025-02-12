@@ -125,3 +125,60 @@ export const AdData = [
         img: ad4
     },
 ]
+
+
+import { SiAuthentik, SiMarketo } from 'react-icons/si'
+import { BiMessage, BiX } from "react-icons/bi";
+import { FcCellPhone, FcVideoCall } from "react-icons/fc";
+import { BsChat } from "react-icons/bs";
+export const valueData = [
+    {
+        name : "Best interest rates on the market",
+        details: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est tenetur aspernatur at, praesentium doloribus nemo ex eius obcaecati a iste?",
+        icon: <SiAuthentik/>
+    },
+    {
+        name : "Prevent unstable prices",
+        details: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est tenetur aspernatur at, praesentium doloribus nemo ex eius obcaecati a iste?",
+        icon : <BiX/>
+    },
+    {
+        name : "Best price on the market",
+        details: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est tenetur aspernatur at, praesentium doloribus nemo ex eius obcaecati a iste?",
+        icon : <SiMarketo/>
+    },
+] 
+
+
+
+
+export const contactData = [
+    {
+        name: "Call",
+        num: "01881402678",
+        btn: "Call now",
+        icon: <FcCellPhone/>
+    },
+    {
+        name: "Chat",
+        num: "01881402678",
+        btn: "Chat now",
+        icon: <BsChat/>
+    },
+    {
+        name: "Video Call",
+        num: "01881402678",
+        btn: "Video Call now",
+        icon: <FcVideoCall/>
+    },
+    {
+        name: "Message",
+        num: "01881402678",
+        btn: "Message now",
+        icon: <BiMessage/>
+    },
+]
+
+
+
+

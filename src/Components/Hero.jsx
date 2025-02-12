@@ -40,7 +40,7 @@ const Hero = () => {
           </div>
         </div>
         {/* image section  */}
-        <div className='w-[30rem] h-[35rem] overflow-hidden border-[8px] border-[#ffffff1e] rounded-t-[15rem] rounded-b-none'>
+        <div className='w-[30rem] h-[35rem] overflow-hidden border-[8px] border-[#ffffff1e] rounded-t-[15rem] rounded-b-none object-fill'>
           <img src={banner} alt="" />
         </div>
       </div>
